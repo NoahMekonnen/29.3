@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Cupcakes</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+</head>
+<body>
+    <ul>
+    </ul>
+    <form action="/api/cupcakes" method="POST">
+        <label for="flavor">Flavor</label>
+        <input type="text" name="flavor" id="flavor">
+        <label for="size">Size</label>
+        <input type="text" name="size" id="size">
+        <label for="rating">Rating</label>
+        <input type="number" name="rating" id="rating">
+        <label for="image">Image</label>
+        <input type="text" name="image" id="image">
+        <button>Submit</button>
+    </form>
+    <script src="static/home.js"></script>
+</body>
+</html>
